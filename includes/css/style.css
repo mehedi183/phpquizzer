@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+header{
+	border-bottom: 3px #f4f4f4 solid;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+.jumbotron{
+	width: 60%;
+	margin: auto;
+}
+.container{
+	width: 60%;
+	overflow: auto;
+}
+main{
+	padding-bottom: 20px;
+}
+
+
+footer{
+	border-top: 3px #f4f4f4 solid;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+/* Edition in Bootstrap*/
+.btn{
+	width: 150px;
+}
+
+
+/*
+Style for Question Page
+*/
+.current{
+	background: #f4f4f4;
+	padding: 20px;
+	margin-bottom: 10px;
+	border:2px solid #ccc;
+}
+
+/*
+Style for Admin Page
+*/
+label{
+	display: inline-block;
+	width: 200px;
+}
+#adbtn{
+	margin-left: 200px;
+	margin-top: 30px;
+}
+input[type="text"]{
+	width: 95%;
+	padding: 3px;
+	border-radius: 4px;
+	border: 2px #ccc solid;
+}
+input[type="number"]{
+	width: 50px;
+	padding: 3px;
+	border-radius: 4px;
+	border: 2px #ccc solid;
+}
+
+
+
+@media(max-width: 960px)
+{
+	.container{
+		width: 80%;
+	}
+	.jumbotron{
+		width: 80%;
+		position: center;
+	}
+}
